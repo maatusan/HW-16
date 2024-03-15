@@ -1,7 +1,21 @@
-.bg-box{
-    justify-content: center;
-    background-color: green;
-    background-image: url(./images/pole-zelen-trava-dom-derevya.webp);
-    background-repeat: repeat-x;
 
+.bg-box{
+    width: 1425px;
+    height: 700px;
+        background-color: green;
+            background-image: url(./images/pole-zelen-trava-dom-derevya.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: auto;
+            
+}
+.bg-box::after{
+    content: "";
+    background-image: url(./images/lamp-png-34914.png);
+    background-repeat: repeat-x;
+    background-image: url(./images/donut.png);
+    background-repeat: repeat-y;
+    background-size: auto;
+        display: block;
+ 
 }
